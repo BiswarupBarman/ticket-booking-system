@@ -1,28 +1,8 @@
-MySQL-Based Ticket Booking System in Python
+MySQL Ticket Booking System
 Overview
-This is a MySQL-based Ticket Booking System developed in Python using mysql.connector.
-It allows users to manage customer details and ticket bookings through a menu-driven interface. 
-The system supports adding, updating, deleting, and displaying customer and booking records.
+A Python-based ticket booking system using MySQL, allowing users to manage customers and bookings via a menu-driven interface.
 
 Features
-✅ Customer Management:
-
-Add new customers
-Update customer details
-Delete customers
-View all customers
-✅ Booking Management:
-
-Create new bookings
-Update booking details
-Delete bookings
-View all bookings
-✅ Database Integration:
-
-**Uses MySQL for data storage**
-Implements foreign key constraints to maintain data integrity
-Automatically creates the necessary database and tables
-Technologies Used
-Python (for application logic)
-MySQL (for database storage)
-Tabulate (for displaying tabular data)
+✅ Add, update, delete, and view customers & bookings
+✅ MySQL database integration with automatic table creation
+✅ Simple menu-driven interface
