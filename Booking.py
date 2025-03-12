@@ -3,7 +3,8 @@ from datetime import date
 import tabulate as tb
 
 # Connect to MySQL
-con = sql.connect(host="localhost", user="root", passwd="123456", auth_plugin="mysql_native_password")
+pwd=input("Enter Your My-SQL Password:")
+con = sql.connect(host="localhost", user="root", passwd=pwd, auth_plugin="mysql_native_password")
 cur = con.cursor()
 
 # Create Database
@@ -199,3 +200,4 @@ while True:
         break
     else:
         print("Invalid choice, please try again.")
+
